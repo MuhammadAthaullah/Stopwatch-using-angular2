@@ -4,7 +4,13 @@
     <div class="text-center">
       {{ counter }}
     </div>
-    <button (click)="start()">{{ timer }}</button>
-    <button (click)="clear()">Clear</button>
+    <button
+      (click)="start()"
+      class="btn btn-primary"
+      style="margin-right:25px;"
+    >
+      {{ timer }}
+    </button>
+    <button (click)="clear()" class="btn btn-danger">Clear</button>
   </div>
 </div>

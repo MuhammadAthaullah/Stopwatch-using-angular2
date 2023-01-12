@@ -18,14 +18,7 @@ export class AppComponent implements OnInit {
   counter: number = 0;
   display: any;
   timer: any = 'Start';
-  ngOnInit(): void {
-    this.formdata = new FormGroup({
-      id: new FormControl(),
-      item: new FormControl(),
-      amount: new FormControl(),
-      location: new FormControl(),
-    });
-  }
+  ngOnInit(): void {}
   start() {
     debugger;
     if (this.timer == 'Start' || this.timer == 'Resume') {
